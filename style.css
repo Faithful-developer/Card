@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #00ffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card {
+    background: white;
+    width: 500px;
+    height: 800px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.container .card .img-section {
+    width: 100%;
+    height: 250px;
+}
+
+.container .card .img-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .card .body-section {
+    width: 100%;
+    height: 550px;
+    padding: 62px 40px;
+}
+
+.container .card .body-section h2 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #2E24A0;
+    text-align: center;
+}
+
+.container .card .body-section .overview {
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #BBAFAF;
+    margin: 35px auto;
+    width: 80%;
+}
+
+.container .card .body-section .banner {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.78);;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.container .card .body-section .banner .left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .card .body-section .banner img {
+    width: 74px;
+    height: 74px;
+    object-fit: contain;
+}
+
+.container .card .body-section .banner .left .box {
+    margin-left: 20px;
+}
+
+.container .card .body-section .banner .left .box h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #6737B5;
+}
+
+.container .card .body-section .banner .left .box p {
+    font-size: 18px;
+    color: #938E8E;
+    margin-top: 15px;
+}
+
+.container .card .body-section .banner a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #476DB7;
+    margin-right: 40px;
+}
+
+.container .card .btn {
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    outline: none;
+    background: #3E44D8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFEFB;
+    margin: 30px 0;
+}
+
+.container .card .cancel {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #9FA3FF;
+    text-decoration: none
+}
